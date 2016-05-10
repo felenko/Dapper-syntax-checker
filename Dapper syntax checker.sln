@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper_syntax_checker", "Dapper syntax checker\Dapper_syntax_checker\Dapper_syntax_checker.csproj", "{B3B2B3DC-F9A5-40B8-B2CF-872398504018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper_syntax_checker.Test", "Dapper syntax checker\Dapper_syntax_checker.Test\Dapper_syntax_checker.Test.csproj", "{63A98B77-9CB9-4F4C-ACD6-FAAB77A15BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper_syntax_checker.Vsix", "Dapper syntax checker\Dapper_syntax_checker.Vsix\Dapper_syntax_checker.Vsix.csproj", "{4DE6F2BC-F76D-4210-BE00-7C645829ED7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B2B3DC-F9A5-40B8-B2CF-872398504018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B2B3DC-F9A5-40B8-B2CF-872398504018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B2B3DC-F9A5-40B8-B2CF-872398504018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B2B3DC-F9A5-40B8-B2CF-872398504018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A98B77-9CB9-4F4C-ACD6-FAAB77A15BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A98B77-9CB9-4F4C-ACD6-FAAB77A15BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A98B77-9CB9-4F4C-ACD6-FAAB77A15BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A98B77-9CB9-4F4C-ACD6-FAAB77A15BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE6F2BC-F76D-4210-BE00-7C645829ED7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE6F2BC-F76D-4210-BE00-7C645829ED7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE6F2BC-F76D-4210-BE00-7C645829ED7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE6F2BC-F76D-4210-BE00-7C645829ED7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
