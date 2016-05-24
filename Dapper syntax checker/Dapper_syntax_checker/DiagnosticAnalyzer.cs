@@ -93,7 +93,7 @@ namespace Dapper_syntax_checker
                 if (fieldDeclaration.FullSpan.Start < lastfieldPosition) Fields = new Dictionary<string, string>();
                 lastfieldPosition = fieldDeclaration.FullSpan.Start;
                 var value = fieldDeclaration.Declaration.Variables.First().Initializer.Value.ChildTokens().First();
-                Fields.Add(fieldDeclaration.Declaration.Variables.First().Identifier.Text, value.Text);
+                Fields[fieldDeclaration.Declaration.Variables.First().Identifier.Text] = value.Text;
             }
             // var initialiser = fieldDeclaration.Declaration.Variables.First().Initializer.Value.ChildTokens().First().Text;
 
@@ -115,7 +115,7 @@ namespace Dapper_syntax_checker
                 // For all such symbols, produce a diagnostic.
                 var diagnostic = Diagnostic.Create(Rule, namedTypeSymbol.Locations[0], namedTypeSymbol.Name);
 
-                context.ReportDiagnostic(diagnostic);
+               // context.ReportDiagnostic(diagnostic);
             }
         }
     }
