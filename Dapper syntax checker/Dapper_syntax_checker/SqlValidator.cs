@@ -13,6 +13,7 @@ namespace Dapper_syntax_checker
 
     public class SqlParser
     {
+		//make sure sql syntax is correct
         public List<string> Parse(string sql)
         {
             TSql100Parser parser = new TSql100Parser(false);
